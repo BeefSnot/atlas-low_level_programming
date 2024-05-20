@@ -4,7 +4,6 @@
  */
 
 #include <stdio.h>
-
 /**
  * main - This program will print the whole alphabet in lowercase, and then in uppercase.
  *
