@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - Prints out the last part of a quote.
  * Return: 1 if success.
