@@ -1,8 +1,8 @@
 #include "main.h"
 /**
+ * main - 100
  *
- *
- *
+ * @n - number of times table to be printed
  */
 void print_times_table(int n)
 {
