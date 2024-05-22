@@ -1,5 +1,4 @@
 #include "main.h"
-
 /*
  * File: 2-print_alphabet_x10.c
  * Author: James Hamby
