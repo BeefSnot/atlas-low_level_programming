@@ -1,7 +1,8 @@
 #include "main.h"
 
-/**
- * print_alphabet_10X - Prints the alphabet 10 times in lowercase.
+/*
+ * File: 2-print_alphabet_x10.c
+ * Author: James Hamby
  */
 void print_alphabet_x10(void)
 {
