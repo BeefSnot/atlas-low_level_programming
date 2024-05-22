@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * File: print_alphabet_x10 - Entry point
- * Auth: James Hamby
+ * print_alphabet_x10: print_alphabet_x10 - lists the alphabet 10 times.
+ *
+ *  
  */
 void print_alphabet_x10(void)
 {
