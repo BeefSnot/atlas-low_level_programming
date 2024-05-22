@@ -1,7 +1,7 @@
 #include "main.h"
-/*
- * File: 2-print_alphabet_x10.c
- * Author: James Hamby
+/**
+ * File: print_alphabet_x10 - Entry point
+ * Auth: James Hamby
  */
 void print_alphabet_x10(void)
 {
