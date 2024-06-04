@@ -1,8 +1,11 @@
 #include "main.h"
 /**
+*_strstr - I absolutely hate this one
+*100%
 *
-*
-*
+*@haystack: where search is made
+*@needle:
+*Return:Returns
 *
 */
 char *_strstr(char *haystack, char *needle)
