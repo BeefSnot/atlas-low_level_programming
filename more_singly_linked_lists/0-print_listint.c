@@ -3,22 +3,25 @@
 #include <stddef.h>
 
 /**
- * print_listint - prints a listint with newlines between
- * each node's value
+ * print_listint - print the int value in each element of a list.
+ * @h: pointer to the head of a list.
  *
- * @h: head of list to print
- *
- * Return: length of list
+ * Return: Number of elements in a list.
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t len;
+	size_t n_nodes = 0;
 
-	if (h == NULL)
+	if (!h)
 		return (0);
 
-	for (len = 0; h != NULL; h = h->next, len++)
+	while (h)
+	{
 		printf("%d\n", h->n);
-
-	return (len);
+		h = h->next;
+		n_nodes++;
+	}
+	return (n_nodes);
 }
+
+

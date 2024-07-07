@@ -1,6 +1,8 @@
-#ifndef LISTS_H
-#define LISTS_H
-#include <stddef.h>
+#ifndef _LISTS_H
+#define _LISTS_H
+#include <stdlib.h>
+#endif
+
 
 /**
  * struct listint_s - singly linked list
@@ -17,3 +19,4 @@ typedef struct listint_s
 } listint_t;
 
 size_t print_listint(const listint_t *h);
+
