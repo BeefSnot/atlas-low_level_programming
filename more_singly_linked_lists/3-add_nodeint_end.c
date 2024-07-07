@@ -32,6 +32,13 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	return (*head);
 }
 
+/**
+ * new_node - creates a new listint_t node.
+ * @n: number to place inside the node.
+ *
+ * Return: pointer to the new node.
+ */
+
 static listint_t *new_node(const int n)
 {
 	listint_t *new;
