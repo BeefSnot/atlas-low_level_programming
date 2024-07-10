@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include <fcntl.h>
 /**
- * close_errchk - closes a file descriptor and prints
- * an error message if it fails
+ * close_errchk - closes descripter and prints error if fail
+ *
  *
  * @fd: file descriptor to close
  *
@@ -24,11 +24,11 @@ int close_errchk(int fd)
 }
 
 /**
- * write_err - error handler for a write error
+ * write_err - error  for write error
  *
  * @fd1: first descriptor to close
  * @fd2: second descriptor to close
- * @filename: filename prompting the error
+ * @filename: filename giving the error
  *
  * Return: 99
  */
@@ -41,11 +41,11 @@ int write_err(int fd1, int fd2, char *filename)
 }
 
 /**
- * read_err - error handler for a read error
+ * read_err - error for a read error
  *
  * @fd1: first descriptor to close
  * @fd2: second descriptor to close
- * @filename: filename prompting the error
+ * @filename: filename giving the error
  *
  * Return: 98
  */
@@ -58,17 +58,17 @@ int read_err(int fd1, int fd2, char *filename)
 }
 
 /**
- * main - copy one file to another, new file with perms 664
+ * main - copy one file and its contents to another file
  * usage - cp file_from file_to
  *
  * @ac: number of arg
  * @av: list of args
  *
- * Return: 97 if incorrect num of args
- * 98 if file_from does not exist or unreadable
+ * Return: 97 if incorrect number of arguments
+ * 98 if file_from if unreadable
  * 99 if write fails
- * 100 if file close fails
- * 0 otherwise
+ * 100 if file fails to close
+ * 0 if anything else
  */
 int main(int ac, char *av[])
 {
