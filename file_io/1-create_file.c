@@ -1,8 +1,9 @@
 #include "main.h"
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/stat.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <fcntl.h>
+#include <unistd.h>
+#include <string.h>
 
 /**
  * create_file - Creates a new file and fills it with content.
