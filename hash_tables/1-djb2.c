@@ -1,5 +1,5 @@
 unsigned long int hash_djb2(const unsigned char *str)
-{
+d{
     unsigned long int hash;
     int c;
 
